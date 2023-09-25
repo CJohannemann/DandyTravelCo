@@ -1,0 +1,47 @@
+//Cell Phone screen
+@media screen and (max-width: 600px) {
+
+  .imageText{
+    display: flex;
+  }
+  .imageText > h1 {
+    color: black;
+    position: absolute;
+    top: -7.75em;
+    left: -7em;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 300px;
+    height: 100px;
+  }
+  .imageText>h4{
+    color: black;
+    position: absolute;
+    top: -9em;
+    left: -9em;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 300px;
+    height: 100px;
+  }
+
+}
+
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.imageText {
+  color: white;
+  position: absolute;
+  top: 48%;
+  right: 26%;
+}
+h4 {
+  padding-left: 2em;
+}
+.container {
+  position: relative;
+}

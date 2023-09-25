@@ -1,0 +1,65 @@
+//Cell Phone screen
+@media screen and (max-width: 600px) {
+
+  #title {
+    padding-bottom: 1.5em;
+  }
+  a.link-item {
+  padding: 0;
+}
+  li.nav-item {
+    padding: 15px;
+  }
+  .link-item {
+    color: black;
+    font-size: 10px;
+  }
+  .nav-items {
+    padding-top: 2em;
+  }
+  
+}
+
+//Regular Screen Size
+//******************
+
+nav {
+  background-color: #fffbf8;
+  display: flex;
+}
+
+#thumbnail {
+  padding-left: 3em;
+  padding-right: 3em;
+  width: 12em;
+}
+
+.nav-items {
+  position: absolute;
+  right: 0px;
+  padding-right: 2em;
+}
+
+li {
+  padding: 2em;
+}
+
+.title {
+  padding: 2em;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 8px;
+}
+
+//.nav-item :hover {
+//  color: black;
+//  background-color: #fffbf8;
+//  font-size: 1.5em;
+//  border: 2px solid black;
+//  border-radius: 12px;
+//}
