@@ -1,7 +1,11 @@
 //Cell Phone screen
 @media screen and (max-width: 600px) {
 
-  .imageText{
+  .image{
+    padding-top: 1em;
+  }
+
+  .imageText {
     display: flex;
   }
   .imageText > h1 {
@@ -15,33 +19,40 @@
     height: 100px;
   }
   .imageText>h4{
-    color: black;
-    position: absolute;
-    top: -9em;
-    left: -9em;
-    margin-top: -50px;
-    margin-left: -50px;
-    width: 300px;
-    height: 100px;
+    display: none;
+}
+  //.imageText>h4{
+  //  color: black;
+  //  position: absolute;
+  //  top: -9em;
+  //  left: -9em;
+  //  margin-top: -50px;
+  //  margin-left: -50px;
+  //  width: 300px;
+  //  height: 100px;
+  //}
+
+}
+
+//************ Computer *************
+  img {
+    height: 100%;
+    width: 100%;
   }
 
-}
+  .imageText {
+    color: white;
+    position: absolute;
+    top: 59%;
+    left: 20%;
+  }
+  h4 {
+    padding-left: 2em;
+  }
+  .container {
+    position: relative;
+  }
 
-
-img {
-  height: 100%;
-  width: 100%;
-}
-
-.imageText {
-  color: white;
-  position: absolute;
-  top: 48%;
-  right: 26%;
-}
-h4 {
-  padding-left: 2em;
-}
-.container {
-  position: relative;
-}
+  .mobileImageText {
+    display: none;
+  }

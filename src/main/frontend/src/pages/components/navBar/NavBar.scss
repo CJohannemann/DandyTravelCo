@@ -1,57 +1,82 @@
 //Cell Phone screen
 @media screen and (max-width: 600px) {
 
+  .navbar-brand {font-family: "Trirong", serif;}
+
+
   #title {
     padding-bottom: 1.5em;
   }
-  a.link-item {
-  padding: 0;
-}
-  li.nav-item {
-    padding: 15px;
+  .navbar-custom{
+    //border:1px solid red;
+    height: 255px;
   }
-  .link-item {
+  .link-item  {
+    //border:1px solid greenyellow;
+    padding: 0;
     color: black;
-    font-size: 10px;
+    font-size: 8px;
+}
+  .nav-item {
+    //padding-top: 6em;
+    //margin-top: 9em;
   }
+
   .nav-items {
-    padding-top: 2em;
+    padding-top: 4em;
+  }
+
+  .imageText {
+    margin-top: 4em;
+  }
+  .imageText > h1{
+    display: none;
   }
   
 }
 
 //Regular Screen Size
 //******************
+  .navbar-brand {
+    font-family: "Trirong", serif;
+  }
 
-nav {
-  background-color: #fffbf8;
-  display: flex;
-}
+  nav {
+    background-color: #fffbf8;
+    display: flex;
+  }
 
-#thumbnail {
-  padding-left: 3em;
-  padding-right: 3em;
-  width: 12em;
+  #thumbnail {
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 12em;
+  }
+@media screen and (max-width: 600px) {
+  #thumbnail {
+    padding-left: 0em;
+    padding-right: 3em;
+    width: 12em;
+    border:1px solid orange;
+  }
 }
+  .nav-items {
+    position: absolute;
+    right: 0px;
+    padding-right: 2em;
+  }
 
-.nav-items {
-  position: absolute;
-  right: 0px;
-  padding-right: 2em;
-}
+  li {
+    padding: 2em;
+  }
 
-li {
-  padding: 2em;
-}
+  .title {
+    padding: 2em;
+  }
 
-.title {
-  padding: 2em;
-}
-
- .link-item {
-  text-decoration: none;
-  color: black;
-  display: inline-block;
-  font-size: 1.5em;
-  padding: 8px;
-}
+  .link-item {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 8px;
+  }
