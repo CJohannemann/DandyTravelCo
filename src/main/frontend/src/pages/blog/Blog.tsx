@@ -1,11 +1,11 @@
 import React from 'react';
+import Markdown from 'react-markdown';
+
 
 const Blog = () => {
-    return (
-        <div>       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <p>This is the blog page..</p>
-        </div>
-    );
+return (
+<Markdown>This is *markdown* for **now**</Markdown>
+);
 };
 
 export default Blog;

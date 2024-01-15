@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import NavThumbnail from './NavThumbnail.png'
 import './NavBar.scss'
 import {Link} from 'react-router-dom';
@@ -16,8 +16,8 @@ const Navbar = () => {
                 <Link className={'nav-item'} to={''}>
                     <li className={'link-item'} >Resources</li>
                 </Link>
-                <Link className={'nav-item'} to={'./Blog'}>
-                    <li className={'link-item'} >Blog</li>
+                <Link className={'nav-item'} to={'./Blogs'}>
+                    <li className={'link-item'} >Blogs</li>
                 </Link>
                 <Link className={'nav-item'} to={''}>
                     <li className={'link-item'} >About</li>
