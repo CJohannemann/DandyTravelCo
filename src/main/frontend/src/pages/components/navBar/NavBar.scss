@@ -1,82 +1,113 @@
-//Cell Phone screen
-@media screen and (max-width: 600px) {
-
-  .navbar-brand {font-family: "Trirong", serif;}
-
-
-  #title {
-    padding-bottom: 1.5em;
-  }
-  .navbar-custom{
-    //border:1px solid red;
-    height: 255px;
-  }
-  .link-item  {
-    //border:1px solid greenyellow;
-    padding: 0;
-    color: black;
-    font-size: 8px;
-}
-  .nav-item {
-    //padding-top: 6em;
-    //margin-top: 9em;
-  }
-
-  .nav-items {
-    padding-top: 4em;
-  }
-
-  .imageText {
-    margin-top: 4em;
-  }
-  .imageText > h1{
+@media only screen and (max-width: 600px) {
+  .Computer {
     display: none;
   }
-  
 }
 
-//Regular Screen Size
-//******************
-  .navbar-brand {
-    font-family: "Trirong", serif;
-  }
 
-  nav {
-    background-color: #fffbf8;
-    display: flex;
-  }
-
-  #thumbnail {
-    padding-left: 3em;
-    padding-right: 3em;
-    width: 12em;
-  }
-@media screen and (max-width: 600px) {
-  #thumbnail {
-    padding-left: 0em;
-    padding-right: 3em;
-    width: 12em;
-    border:1px solid orange;
-  }
+//********* Computer Screen *******
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
 }
-  .nav-items {
-    position: absolute;
-    right: 0px;
-    padding-right: 2em;
-  }
 
-  li {
-    padding: 2em;
-  }
+#topNav {
+  background-color: rgb(194, 211, 213) !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1060;
+}
 
-  .title {
-    padding: 2em;
-  }
 
-  .link-item {
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-    font-size: 1.5em;
-    padding: 8px;
-  }
+h1 {
+  font-family: "Garamond", serif;
+  color: #012650;
+}
+
+#title {
+  font-size: 35px;
+  font-family: "Trirong", serif;
+}
+
+.nav-2 {
+  padding-left: 55px;
+}
+
+.link-item1, .link-item2{
+  color: #012650;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  line-height: 1.3;
+  transition: all 300ms ease-in-out;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 20px;
+}
+
+.link-item3 {
+  color: #012650;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  line-height: 1.3;
+  transition: all 300ms ease-in-out;
+  padding-left: 35px;
+  font-size: 20px;
+}
+
+
+a:hover {
+  color: #3592FD;
+}
+
+.navigation {
+  background-color: #BEDCFE;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-right: 0;
+}
+
+.container div:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container div:first-of-type img {
+  display: inline-block;
+  max-width: 100%;
+  width: 35%;
+}
+
+.link-container {
+  display: flex;
+  width: 90%;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 4%;
+  margin-right: 0;
+}
+
+#trip-btn {
+  text-decoration: none;
+  background-color: rgb(227, 179, 48);
+  padding: 8px 16px;
+  color: white;
+  border: 2px solid rgb(227, 179, 48);
+  border-radius: 4px;
+  transition: all 300ms ease-in-out;
+  margin-left: 20%;
+}
+
+.btn:hover {
+  color: gold;
+  background-color: transparent;
+}
