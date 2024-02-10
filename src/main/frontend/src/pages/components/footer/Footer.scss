@@ -1,0 +1,33 @@
+
+.footer-container {
+  display: flex;
+  width: 100%;
+
+}
+
+.footer-item {
+  background-color: rgb(194, 211, 213);
+  text-align: center;
+  display: flex;
+  width: 100%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  height: auto;
+  flex-direction: column;
+  padding-bottom: 1em;
+}
+
+// social media crap
+.mediaIcon-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+  align-items: center;
+}
+
+
+.icons2 {
+  display: flex;
+  width: 25px;
+}

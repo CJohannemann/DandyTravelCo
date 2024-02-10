@@ -1,66 +1,130 @@
-//Cell Phone screen
-@media screen and (max-width: 600px) {
-
-  .outer-container {
-    padding-top: 1em;
-  }
-  .image {
-    padding-top: 1em;
-  }
-
-  .imageText {
-    display: flex;
-  }
-  .imageText > h1 {
-    color: black;
-    position: absolute;
-    top: -7.75em;
-    left: -7em;
-    margin-top: -50px;
-    margin-left: -50px;
-    width: 300px;
-    height: 100px;
-  }
-  .imageText > h4 {
-    display: none;
-  }
-  //.imageText>h4{
-  //  color: black;
-  //  position: absolute;
-  //  top: -9em;
-  //  left: -9em;
-  //  margin-top: -50px;
-  //  margin-left: -50px;
-  //  width: 300px;
-  //  height: 100px;
-  //}
-
+@font-face {
+  font-family: 'Abril Fatface', serif;
 }
 
-//************ Computer *************
+@media only screen and (max-width: 600px) {
+  .Computer {
+    display: none;
+  }
+}
+
+* {
+  overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+//******** Computer ******
+
+//This is the img container..
 .image {
-  padding-top: 7.25em;
-  height: 100%;
+  padding-top: 121px;
+  height: 870px;
+  overflow: hidden;
+}
+
+#main-img {
+  width: 100%;
+  height: auto;
+}
+
+.imageText-row {
+  padding-top: 2em;
+  box-sizing: border-box;
+}
+
+.imageText-column {
+  display: flex;
+  justify-content: space-around;
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+div > h1 {
+  font-size: 85px;
+}
+
+.item-1 {
+
+  color: #082975;
+  padding-left: 7%;
+  align-items: center;
+  font-weight: 900;
+}
+
+.item-2 {
+  color: #082975;
+  width: 500px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.sub-titles {
+  color: #082975;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+
+// Icons****
+.fa-icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-bottom: 3em;
+}
+
+.icons {
+  color: #082975;
+  font-weight: 500;
+  height: 180px;
+  width: auto;
+  text-align: center;
+}
+
+//end of icons...
+
+// Itineraries
+.feature-itineraries {
+  display: flex;
   width: 100%;
 }
 
-.imageText {
-
+.feature-itineraries-img {
   display: flex;
-  color: navy;
-  padding-left: 18%;
+  width: 100%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  height: auto;
   flex-direction: column;
-  border: solid 2px red;
 }
 
-h4 {
-  padding-left: 2em;
+.itin-name {
+  background-color: rgb(194, 211, 213);
+  padding-bottom: 1em;
+  color: #082975;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
 }
 
-.container {
-  position: relative;
+.itin-btn {
+  font-size: 25px;
+  align-content: center;
+  text-decoration: none;
+  background-color: #082975;
+  padding: 8px 16px;
+  color: white;
+  border: 2px solid #082975;
+  border-radius: 20px;
+  //transition: all 300ms ease-in-out;
 }
-
-.mobileImageText {
-  display: none;
+.itin-btn:hover {
+  background-color: #1a419c;
+  color: white;
 }
