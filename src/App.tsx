@@ -3,8 +3,6 @@ import React from 'react';
 import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import HomePage from "./main/frontend/src/pages/home";
 import Navbar from "./main/frontend/src/pages/components/navBar";
-import BlogLandingPage from './main/frontend/src/pages/blogHome/BlogLandingPage';
-import Blog from './main/frontend/src/pages/blog/Blog';
 
 function App() {
   return (
@@ -12,8 +10,7 @@ function App() {
           <Navbar/>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
-          <Route path="/Blogs" element={<BlogLandingPage/>}/>
-          <Route path="/Blogs/Blog" element={<Blog/>}/>
+          {/*<Route path="/Blog" element={<Blog/>}/>*/}
         </Routes>
       </Router>
   );
