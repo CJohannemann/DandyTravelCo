@@ -4,8 +4,6 @@ import './NavBar.scss'
 import { Navbar } from "react-bootstrap";
 import {Nav} from "reactstrap";
 import {Link} from "react-router-dom";
-// import {Nav} from "react-router-dom";
-
 function NavBar() {
     return (
 
@@ -24,7 +22,7 @@ function NavBar() {
                             <a className={'link-item1'} href="#">Suggested <br/> Itineraries</a>
                             <a className={'link-item2'} href="#">Pricing</a>
                             <a className={'link-item3'} href="#">Blog</a>
-                            <a id={'trip-btn'} href="#" className="btn">Plan Your <br/> Trip</a>
+                            <a id={'trip-btn'} href="#" className="btn">PLAN YOUR <br/> TRIP</a>
                         </div>
                     </div>
                 </Navbar>
