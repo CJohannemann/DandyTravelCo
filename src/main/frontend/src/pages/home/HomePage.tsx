@@ -39,7 +39,7 @@ const HomePage = () => {
                 <div className={'fa-icons'}>
                     <p className={'icons'}><RouteIcon/> <br/><br/>RV-friendly<br/>routes &<br/>directions</p>
                     <p className={'icons'}><VanIcon/> <br/><br/> RV rental<br/>(if needed)</p>
-                    <p className={'icons'}><ClipboardIcon/> <br/><br/> RV rental<br/>(if needed)</p>
+                    <p className={'icons'}><ClipboardIcon/> <br/><br/> Tips + Tricks</p>
                     <p className={'icons'}><HikingIcon/> <br/><br/> Suggested<br/>Activities</p>
                     <p className={'icons'}><FolderIcon/> <br/><br/> Digital Trip<br/>Documentation</p>
                     <p className={'icons'}><CampgroundIcon/> <br/><br/> Pre-booked<br/>Campground<br/>Reservations</p>
