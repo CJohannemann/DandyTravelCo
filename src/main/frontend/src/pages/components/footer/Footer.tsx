@@ -8,18 +8,18 @@ const Footer = () => {
         <>
             <div className={'footer-container'}>
                 <div className={'footer-item'}>
-                    <p>Photo Creds</p>
+                    <p className={'footer-p'}>Photo Creds</p>
                 </div>
 
                 <div className={'footer-item'}>
-                    <p>Newsletter signup</p>
+                    <p className={'footer-p'}>Newsletter signup</p>
                     <a href={'mailto:dandytravelco@gmail.com'}>dandytravelco@gmail.com</a>
 
 
                 </div>
 
                 <div className={'footer-item'}>
-                    <p>Social Media</p>
+                    {/*<p>Social Media</p>*/}
                     <div className={'mediaIcon-container'}>
 
                         <div className={'mediaIcons'}>

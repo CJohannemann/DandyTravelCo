@@ -18,8 +18,10 @@ const HomePage = () => {
             <div className={'Computer'}>
                 <div className={'outer-container'}>
                 </div>
+                <div className={'image-container'}>
                 <div className={'image'}>
                     <img id={'main-img'} alt={'road with dandelions blowing in wind'} src={MainImage}/>
+                </div>
                 </div>
                 <div className={'imageText-row'}>
                     <div className={'imageText-column'}>
@@ -71,6 +73,7 @@ const HomePage = () => {
                 </div>
 
             </div>
+{/**!/*/}
             {/*    This is the end of the computer stuff....*/}
         </>
     );

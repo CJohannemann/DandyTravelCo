@@ -1,10 +1,16 @@
 @font-face {
   font-family: 'Abril Fatface', serif;
 }
-
-@media only screen and (max-width: 600px) {
+//cellphones
+@media only screen and (max-width:481px) {
   .Computer {
     display: none;
+  }
+}
+
+@media (max-width:961px) {
+  .Computer {
+
   }
 }
 
@@ -20,9 +26,13 @@
 //******** Computer ******
 
 //This is the img container..
+.image-container {
+  height: fit-content;}
+
 .image {
   padding-top: 121px;
   height: 870px;
+  //height: fit-content;
   overflow: hidden;
 }
 
@@ -94,15 +104,18 @@ div > h1 {
 .feature-itineraries {
   display: flex;
   width: 100%;
+  gap: 1em;
+  margin-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .feature-itineraries-img {
   display: flex;
   width: 100%;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
   height: auto;
   flex-direction: column;
+  background-color: rgb(194, 211, 213);
 }
 
 .itin-name {
