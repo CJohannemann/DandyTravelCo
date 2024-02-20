@@ -1,0 +1,50 @@
+.title-container {
+  padding-top: 127px;
+}
+
+.title-p {
+  color: #082975;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.flex-container {
+  padding-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid navy;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.inner-item-number {
+  width: 12em;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.inner-item-text {
+  width: 17em;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.pricing-number {
+  font-size: 255px;
+  text-align: center;
+  color: #082975;
+}
+
+.pricing-title {
+  font-size: 38px;
+  color: #D7BA6A;
+}
+
+.pricing-text {
+  font-weight: 500;
+  color: #082975;
+}

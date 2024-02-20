@@ -71,10 +71,7 @@ const HomePage = () => {
                 <div>
                     <Footer/>
                 </div>
-
             </div>
-{/**!/*/}
-            {/*    This is the end of the computer stuff....*/}
         </>
     );
 };
