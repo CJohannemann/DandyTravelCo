@@ -9,15 +9,15 @@ import Planning from "./main/frontend/src/pages/planning/Planning";
 function App() {
     return (
         <BrowserRouter>
-        {/*<Router>*/}
+        // <Router>
             <Navbar/>
             <Routes>
                 <Route path='/' element={<HomePage/>}/>
-                <Route path='/Pricing' element={<Pricing/>}/>
-                <Route path='/Plan-Your-Trip' element={<Planning/>}/>
+                <Route path='/pricing' element={<Pricing/>}/>
+                <Route path='/plan-your-trip' element={<Planning/>}/>
                 {/*<Route path="/Blog" element={<Blog/>}/>*/}
             </Routes>
-        {/*</Router>*/}
+        // </Router>
         </BrowserRouter>
     );
 }
