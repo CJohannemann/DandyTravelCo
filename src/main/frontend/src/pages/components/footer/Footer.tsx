@@ -2,6 +2,7 @@ import React from "react";
 import './Footer.scss'
 import InstagramIcon from "./svg/InstagramIcon";
 import FacebookIcon from "./svg/FacebookIcon";
+import TikTokIcon from "./svg/TikTokIcon";
 
 const Footer = () => {
     return (
@@ -23,10 +24,13 @@ const Footer = () => {
                     <div className={'mediaIcon-container'}>
 
                         <div className={'mediaIcons'}>
-                            <a href={''} className={'icons2'}><InstagramIcon/></a>
+                            <a href={'https://www.instagram.com/dandytravelco?igsh=a3N6NDVwMndydm14'} className={'icons2'}><InstagramIcon/></a>
                         </div>
                         <div className={'mediaIcons'}>
-                            <a href={''} className={'icons2'}><FacebookIcon/></a>
+                            <a href={'https://www.facebook.com/dandytravelco'} className={'icons2'}><FacebookIcon/></a>
+                        </div>
+                        <div className={'mediaIcons'}>
+                            <a href={'https://www.tiktok.com/@dandytravelco?_t=8kOnlgB9cUd&_r=1'} className={'icons2'}><TikTokIcon/></a>
                         </div>
                     </div>
                 </div>
