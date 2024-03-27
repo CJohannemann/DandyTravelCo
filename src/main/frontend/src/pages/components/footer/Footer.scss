@@ -1,4 +1,3 @@
-
 .footer-container {
   display: flex;
   width: 100%;
@@ -17,7 +16,7 @@
   padding-bottom: 1em;
 }
 
-// social media crap
+// social media
 .mediaIcon-container {
   display: flex;
   justify-content: center;
@@ -37,4 +36,20 @@
   padding-top: 15px;
   font-weight: 500;
   color: #012650;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mediaIcon-container {
+    gap: 10px;
+  }
+  .footer-container {
+    height: 100px;
+  }
+  .mediaIcons {
+    padding-bottom: 1.5em;
+  }
 }
