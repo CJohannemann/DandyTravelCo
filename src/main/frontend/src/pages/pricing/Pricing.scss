@@ -56,19 +56,21 @@
 //     margin-left: 31%;
 //   }
 
-  //Phone screen
+//Phone screen
 @media only screen and (max-width: 768px) {
   .flex-container {
     width: 280px;
     margin: auto;
-width: 50%;
-padding: 10px;
-margin-bottom: 1em;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 1em;
   }
+
   .title-container {
     padding-top: 50px;
     text-align: center;
   }
+
   .title-p {
     color: #082975;
     text-align: center;
@@ -76,15 +78,18 @@ margin-bottom: 1em;
     font-size: 36px;
     font-weight: 500;
   }
+
   .pricing-title {
     text-align: center;
     font-size: 38px;
     color: #D7BA6A;
   }
+
   .pricing-number {
     font-size: 150px;
     overflow: hidden;
   }
+
   .pricing-text {
     text-align: center;
     padding-left: 10px;
