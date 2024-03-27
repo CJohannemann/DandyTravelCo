@@ -8,7 +8,7 @@ function NavBar() {
     return (
 
         <>
-            <div className={"Computer"}>
+            
                 <div >
                 <Navbar id={'topNav'} expand="lg" className="bg-body-tertiary nav-fill w-100">
                     <div className={'nav-1'}>
@@ -27,30 +27,6 @@ function NavBar() {
                     </div>
                 </Navbar>
                 </div>
-            </div>
-
-            <div className={"Mobile"}>
-
-            </div>
-
-                    {/*    <Navbar.Toggle aria-controls="basic-navbar-nav"/>*/}
-                    {/*    <Navbar.Collapse id="basic-navbar-nav">*/}
-                    {/*<div className={'nav-3'}>*/}
-                    {/*    <Nav className="links">*/}
-                    {/*        /!*<Nav.Link as={Link} to={'./Blog'}>Blog</Nav.Link>*!/*/}
-                    {/*        <div className={'abc'} >*/}
-                    {/*        <Link id={'itineraries'} to={"#link"}>Suggested Itineraries</Link>*/}
-                    {/*        </div>*/}
-                    {/*            <div className={'abc'} >*/}
-                    {/*                <Link to="#link">Pricing</Link>*/}
-                    {/*            </div>*/}
-                    {/*        <Link to="#link">Blog</Link>*/}
-                    {/*        <div className={'abc my-2 my-lg-0'} >*/}
-                    {/*        <Link className={'btn btn-outline-success my-2 my-sm-0 ms-auto text-end'} to="#link">PLAN YOUR TRIP</Link>*/}
-                    {/*        </div>*/}
-                    {/*    </Nav>*/}
-                    {/*</div>*/}
-                    {/*</Navbar.Collapse>*/}
         </>
     );
 }

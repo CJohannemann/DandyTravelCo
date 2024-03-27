@@ -50,11 +50,11 @@
 }
 
 //smaller screen
-@media only screen and (max-width: 1600px) {
-  .flex-container {
-    width: 580px;
-    margin-left: 31%;
-  }
+// @media only screen and (max-width: 1600px) {
+//   .flex-container {
+//     width: 580px;
+//     margin-left: 31%;
+//   }
 
   //Phone screen
 @media only screen and (max-width: 768px) {
@@ -92,5 +92,4 @@ margin-bottom: 1em;
     font-weight: 500;
     color: #082975;
   }
-}
 }
