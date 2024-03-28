@@ -9,12 +9,12 @@ const Footer = () => {
         <>
             <div className={'footer-container'}>
                 <div className={'footer-item'}>
-                    <p className={'footer-p'}>Photo Creds</p>
+                <a className={'footer-p'} href={'mailto:dandytravelco@gmail.com'}>Contact Us</a>
                 </div>
 
                 <div className={'footer-item'}>
                     <p className={'footer-p'}>Newsletter signup</p>
-                    <a href={'mailto:dandytravelco@gmail.com'}>dandytravelco@gmail.com</a>
+                    
 
 
                 </div>

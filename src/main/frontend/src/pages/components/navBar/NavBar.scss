@@ -2,21 +2,13 @@
   font-family: 'Abril Fatface', serif;
 }
 
-@media only screen and (min-width:320px) {
-  .Computer {
-    //display: none;
-  }
-}
-
 
 //********* Computer Screen *******
-@media (min-width: 11px) {
   * {
     margin: 0;
     padding: 0;
     font-family: system-ui;
   }
-
   #topNav {
     background-color: rgb(194, 211, 213) !important;
     position: fixed;
@@ -25,12 +17,9 @@
     left: 0;
     z-index: 1060;
   }
-
-
   h1 {
     color: #012650;
   }
-
   #title {
     font-size: 35px;
     font-family: "Trirong", serif;
@@ -39,11 +28,9 @@
     z-index: 1060;
     color: #012650;
   }
-
   .nav-2 {
     padding-left: 55px;
   }
-
   .link-item1, .link-item2 {
     color: #012650;
     font-weight: 600;
@@ -55,7 +42,6 @@
     padding-right: 35px;
     font-size: 20px;
   }
-
   .link-item3 {
     color: #012650;
     font-weight: 600;
@@ -66,28 +52,22 @@
     padding-left: 35px;
     font-size: 20px;
   }
-
-
   a:hover {
     color: #3592FD;
   }
-
   .navigation {
     background-color: #BEDCFE;
   }
-
   .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
     margin-left: auto;
   }
-
   .container div:first-of-type {
     display: flex;
     align-items: center;
     gap: 1rem;
   }
-
   .link-container {
     display: flex;
     width: 90%;
@@ -95,7 +75,6 @@
     align-items: center;
     justify-content: flex-end;
   }
-
   #trip-btn {
     text-decoration: none;
     background-color: #D7BA6A;
@@ -107,10 +86,25 @@
     margin-left: 5%;
     font-weight: 500;
   }
-
-
   .btn:hover {
     color: gold;
     background-color: transparent;
+  }
+
+
+@media only screen and (max-width: 768px) {
+  .mobileNav, .dropdown-item{
+    z-index: 9999;
+  }
+  .link-item1, .link-item2, .link-item3 {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .dropdown-menu:show{
+z-index: 9999;
+  }
+  .dropdown, a {
+    z-index: 9999;
+    padding-bottom: 5em;
   }
 }

@@ -48,3 +48,53 @@
   font-weight: 500;
   color: #082975;
 }
+
+//smaller screen
+@media (min-width:769px) and (max-width:1300px) {
+  .title-p {
+    margin-top: 2em;
+  }
+}
+
+//Phone screen
+@media only screen and (max-width: 768px) {
+  .flex-container {
+    width: 280px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 1em;
+  }
+
+  .title-container {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .title-p {
+    color: #082975;
+    text-align: center;
+    margin-top: 6em;
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .pricing-title {
+    text-align: center;
+    font-size: 38px;
+    color: #D7BA6A;
+  }
+
+  .pricing-number {
+    font-size: 150px;
+    overflow: hidden;
+  }
+
+  .pricing-text {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    color: #082975;
+  }
+}
