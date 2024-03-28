@@ -50,11 +50,11 @@
 }
 
 //smaller screen
-// @media only screen and (max-width: 1600px) {
-//   .flex-container {
-//     width: 580px;
-//     margin-left: 31%;
-//   }
+@media (min-width:769px) and (max-width:1300px) {
+  .title-p {
+    margin-top: 2em;
+  }
+}
 
 //Phone screen
 @media only screen and (max-width: 768px) {
@@ -74,7 +74,7 @@
   .title-p {
     color: #082975;
     text-align: center;
-    margin-top: 5em;
+    margin-top: 6em;
     font-size: 36px;
     font-weight: 500;
   }

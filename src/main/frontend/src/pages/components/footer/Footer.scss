@@ -45,11 +45,15 @@ a:link {
 @media only screen and (max-width: 768px) {
   .mediaIcon-container {
     gap: 10px;
+    overflow: hidden;
+  }
+  .icons2 {
+    padding-top: 70px;
   }
   .footer-container {
     height: 100px;
   }
   .mediaIcons {
-    padding-bottom: 1.5em;
+    // padding-bottom: 1.5em;
   }
 }

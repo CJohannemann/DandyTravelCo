@@ -93,16 +93,18 @@
 
 
 @media only screen and (max-width: 768px) {
-#topNav{
- height: 123px;
- position: relative;
-}
-.nav-1 {
-  display: none;
-}
-.nav-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+  .mobileNav, .dropdown-item{
+    z-index: 9999;
+  }
+  .link-item1, .link-item2, .link-item3 {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .dropdown-menu:show{
+z-index: 9999;
+  }
+  .dropdown, a {
+    z-index: 9999;
+    padding-bottom: 5em;
+  }
 }

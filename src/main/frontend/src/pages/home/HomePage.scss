@@ -139,6 +139,16 @@ div>h1 {
   color: white;
 }
 
+@media (min-width:769px) and (max-width:1300px) {
+.image {
+  height: 500px;
+}
+.item-1 {
+  font-size: 70px;
+  font-weight: 900;
+  overflow: hidden;
+}
+}
 
 @media only screen and (max-width: 768px) {
   .image {
