@@ -67,10 +67,6 @@ const HomePage = () => {
                     <p className={'itin-name'}>Northeast <br /> <a className={'itin-btn'}>READ MORE</a></p>
                 </div>
             </div>
-
-            <div>
-                <Footer />
-            </div>
         </>
     );
 };

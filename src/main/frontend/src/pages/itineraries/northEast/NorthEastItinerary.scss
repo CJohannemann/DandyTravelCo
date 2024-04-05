@@ -1,0 +1,39 @@
+.box {
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    // border: 6px solid salmon;
+}
+.chr{
+    background-image: url(./img/Northeast.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.chr h2 {
+    
+}
+
+#chr-txt {
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+    color: greenyellow;
+    size: 74px;
+}
+
+#north-east-route-img {
+    background-image: url(./img/NorthSmall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.north-east-route-img-conatiner {
+    width: 100%;
+    margin: 0;
+    height: 100em;
+}

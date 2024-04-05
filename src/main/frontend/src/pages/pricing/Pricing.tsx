@@ -45,9 +45,6 @@ const Pricing = () => {
                     <br/> Trip Fee: Varies</p>
                 </div>
             </div>
-            <div>
-                <Footer/>
-            </div>
         </>
     )
 }
