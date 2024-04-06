@@ -4,7 +4,7 @@ import './NorthEastItinerary.scss'
 const NorthEastItinerary = () => {
     return (
         <>
-            <div style={{ paddingTop: "150px" }}></div>
+            <div className='whitespace' style={{ paddingTop: "150px" }}></div>
             <div className="box">
                 <p id="coverPhoto"></p>
             </div>
