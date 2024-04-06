@@ -3,37 +3,87 @@
     width: 50%;
     margin: auto;
     overflow: hidden;
-    // border: 6px solid salmon;
 }
-.chr{
-    background-image: url(./img/Northeast.png);
+
+#coverPhoto {
+    background-image: url(./img/Capture.PNG);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.chr h2 {
-    
-}
-
-#chr-txt {
-    position:fixed;
-    bottom: 0;
-    text-align: center;
-    color: greenyellow;
-    size: 74px;
+    background-size: contain;
+    height: 100%;
 }
 
 #north-east-route-img {
     background-image: url(./img/NorthSmall.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     height: 100%;
+    overflow: hidden;
 }
 
 .north-east-route-img-conatiner {
     width: 100%;
     margin: 0;
     height: 100em;
+    overflow: hidden;
+
+}
+
+.verbiage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.content-container {
+    width: 470px;
+}
+
+.verbiage div {
+    margin: 2em;
+}
+
+.bullets {
+    list-style-type: disc;
+}
+.bullets::marker {
+    color: black;
+    font-size: 1.5em;
+}
+
+.book-btn-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#book-btn {
+    background-color: #082975;
+    text-decoration: none;
+    padding: 4px 10px;
+    border: #082975 2px solid;
+
+    font-size: 20px;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    #north-east-route-img {
+        height: 1000px;
+    }
+
+    .north-east-route-img-conatiner {
+        height: 1000px;
+    }
+    .verbiage {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .verbiage div {
+        margin: 5px;
+    }
 }
