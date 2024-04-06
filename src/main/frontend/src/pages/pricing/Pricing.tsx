@@ -1,6 +1,5 @@
 import React from "react";
 import './Pricing.scss';
-import Footer from "../components/footer/Footer";
 
 const Pricing = () => {
     return (
