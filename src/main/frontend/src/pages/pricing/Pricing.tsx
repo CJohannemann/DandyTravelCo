@@ -1,6 +1,5 @@
 import React from "react";
 import './Pricing.scss';
-import Footer from "../components/footer/Footer";
 
 const Pricing = () => {
     return (
@@ -44,9 +43,6 @@ const Pricing = () => {
                     <br/> Planning Fee: $200/night
                     <br/> Trip Fee: Varies</p>
                 </div>
-            </div>
-            <div>
-                <Footer/>
             </div>
         </>
     )

@@ -1,0 +1,62 @@
+.flex-containter {
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    gap: 1.5rem;
+    margin: auto;
+    width: 90%;
+    
+}
+
+.suggested-itineraries-title {
+    padding-top: 75px;
+    color: #082975;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+.carts {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    width: 330px;
+    height: 20rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.itin-img{
+    height:188px; 
+    width: 360px;
+}
+
+@media (max-width: 1200px) {
+    .flex-containter {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .suggested-itineraries-title {
+        padding-top: 150px;
+    }
+}
+    @media (max-width: 470px) {
+        .flex-containter {
+            width: 100%;
+            margin: auto;
+        }
+        .suggested-itineraries-title {
+            padding-top: 185px;
+            padding-bottom: 10px;
+        }
+        .carts {
+            width: 100%;
+        }
+        .itin-img{
+            width: 100%;
+        }
+    }
