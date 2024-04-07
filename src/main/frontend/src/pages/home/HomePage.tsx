@@ -3,7 +3,6 @@ import MainImage from './MainImage.png';
 import Florida from '../home/itineraries/Florida.png'
 import Michigan from '../home/itineraries/Michigan.png'
 import Northeast from '../home/itineraries/Northeast.png'
-import Footer from '../components/footer/Footer'
 import './HomePage.scss';
 import RouteIcon from "./svg/RouteIcon";
 import VanIcon from "./svg/VanIcon";

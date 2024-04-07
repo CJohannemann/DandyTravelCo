@@ -20,8 +20,8 @@ function NavBar() {
                     </div>
                     <div className={'container'}>
                         <div className="link-container">
-                            <a className={'link-item1'} href="/Suggested-Itineraries">Suggested <br /> Itineraries</a>
-                            <a className={'link-item2'} href="/Pricing">Pricing</a>
+                            <a className={'link-item1'} href="Suggested-Itineraries">Suggested <br /> Itineraries</a>
+                            <a className={'link-item2'} href="Pricing">Pricing</a>
                             <a className={'link-item3'} href="#">Blog</a>
                             <a id={'trip-btn'} href="/Plan-Your-Trip" className="btn">PLAN YOUR <br /> TRIP</a>
                         </div>
