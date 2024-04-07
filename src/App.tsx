@@ -15,9 +15,9 @@ function App() {
             <Navbar/>
             <Routes>
                 <Route path='/' element={<HomePage/>}/>
-                <Route path='/pricing' element={<Pricing/>}/>
-                <Route path='/plan-your-trip' element={<Planning/>}/>
-                <Route path='/suggested-itineraries' element={<SuggestedItineraries/>}/>
+                <Route path='/Pricing' element={<Pricing/>}/>
+                <Route path='/Plan-Your-Trip' element={<Planning/>}/>
+                <Route path='/Suggested-Itineraries' element={<SuggestedItineraries/>}/>
                 {/*List Of Itineraries:*/}
                 <Route path='/Suggested-Itineraries-NorthEast' element={<NorthEastItinerary/>}/>
             </Routes>
