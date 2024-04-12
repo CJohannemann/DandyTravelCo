@@ -1,126 +1,74 @@
-@font-face {
-  font-family: 'Abril Fatface', serif;
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(194, 211, 213);
+  color: var(--title-color);
+
+  z-index: 999;
+  position: fixed !important;
+  width: 100%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: system-ui;
-}
-
-#topNav {
-  background-color: rgb(194, 211, 213) !important;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1060;
+.nav-links {
+  font-family: Trirong, serif;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
 }
 
 h1 {
   color: #012650;
 }
 
-#title {
+.nav-links a {
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.nav-links a.active {
+  font-weight: bold;
+  color: #012650;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#aa {
+  height: 4em;
+}
+
+#bb {
+  padding-left: 2em;
   font-size: 35px;
-  font-family: "Trirong", serif;
-  font-weight: 900;
-  padding-right: 4em;
-  z-index: 1060;
-  color: #012650;
-}
-
-.nav-2 {
-  padding-left: 55px;
-}
-
-.link-item1,
-.link-item2 {
-  color: #012650;
   font-weight: 600;
-  letter-spacing: 0.25px;
-  text-decoration: none;
-  line-height: 1.3;
-  transition: all 300ms ease-in-out;
-  padding-left: 35px;
-  padding-right: 35px;
-  font-size: 20px;
-}
-
-.link-item3 {
   color: #012650;
-  font-weight: 600;
-  letter-spacing: 0.25px;
-  text-decoration: none;
-  line-height: 1.3;
-  transition: all 300ms ease-in-out;
-  padding-left: 35px;
-  font-size: 20px;
+  font-family: Trirong, serif;
+  text-decoration: none; /* Add this line to remove underline */
 }
 
-a:hover {
-  color: #3592FD;
-}
-
-.navigation {
-  background-color: #BEDCFE;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  margin-left: auto;
-}
-
-.container div:first-of-type {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.link-container {
-  display: flex;
-  width: 90%;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-end;
-}
 
 #trip-btn {
+  margin-right: 2em;
   text-decoration: none;
   background-color: #D7BA6A;
-  padding: 8px 16px;
   color: white;
   border: 2px solid rgb(243, 216, 119);
   border-radius: 4px;
   transition: all 300ms ease-in-out;
-  margin-left: 5%;
   font-weight: 500;
 }
 
-.btn:hover {
-  color: gold;
-  background-color: transparent;
-}
-
-#mobile-menu-container {
-  display: none;
-}
-
-
-@media only screen and (max-width: 768px) {
-
-  #mobile-menu-container {
-    display: inline-flex;
+@media (max-width: 470px) {
+  #bb {
+    font-size: 25px;
   }
-
-  #abc {
-    display: none;
+  .nav-links {
+    gap: 1.5rem
   }
-
-  #topNav {
-    height: 120px;
-  }
-
-
 }

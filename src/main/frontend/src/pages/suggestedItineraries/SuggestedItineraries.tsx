@@ -5,7 +5,6 @@ import Northeast from '../home/itineraries/Northeast.png'
 import BlueRidgeHighway from '../home/itineraries/BlueRidgeHighway.png'
 import CharlestonCapture from '../itineraries/charleston/img/CharlestonCapture.png'
 import ArkansasStlmoCapture from '../itineraries/arkansasStLouis/img/ArkansasStlmoCapture.jpg'
-import Footer from '../components/footer/Footer';
 
 const SuggestedItineraries = () => {
     return (
@@ -49,7 +48,6 @@ const SuggestedItineraries = () => {
                     </p>
                 </div>
             </div>
-            <div className="gap" style={{ paddingTop: "50px" }}></div>
         </>
     );
 }

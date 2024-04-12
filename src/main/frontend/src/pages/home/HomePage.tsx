@@ -38,7 +38,7 @@ const HomePage = () => {
                 <p className={'sub-titles'}>All Trips Include</p>
             </div>
 
-            {/* this shows up on computer */}
+            
             <div className={'fa-icons'}>
                 <p className={'icons'}><RouteIcon /> <br /><br />RV-friendly<br />routes &<br />directions</p>
                 <p className={'icons'}><VanIcon /> <br /><br /> RV rental<br />(if needed)</p>
