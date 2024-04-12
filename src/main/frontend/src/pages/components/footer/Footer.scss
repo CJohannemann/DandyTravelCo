@@ -44,8 +44,9 @@ a:link {
 
 @media only screen and (max-width: 768px) {
   .mediaIcon-container {
-    gap: 10px;
+    gap: 5px;
     overflow: hidden;
+    padding-bottom: 75px;
   }
   .icons2 {
     padding-top: 70px;

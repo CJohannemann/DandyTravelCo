@@ -20,16 +20,16 @@ function App() {
             <Navbar/>
             <Routes>
                 <Route path='' element={<HomePage/>}/>
-                <Route path='Pricing' element={<Pricing/>}/>
-                <Route path='Plan-Your-Trip' element={<Planning/>}/>
-                <Route path='Suggested-Itineraries' element={<SuggestedItineraries/>}/>
+                <Route path='/Pricing' element={<Pricing/>}/>
+                <Route path='/Plan-Your-Trip' element={<Planning/>}/>
+                <Route path='/Suggested-Itineraries' element={<SuggestedItineraries/>}/>
                 {/*List Of Itineraries:*/}
-                <Route path='Suggested-Itineraries-NorthEast' element={<NorthEastItinerary/>}/>
-                <Route path='Suggested-Itineraries-Michigan' element={<MichiganItinerary/>}/>
-                <Route path='Suggested-Itineraries-Florida' element={<FloridaItinerary/>}/>
-                <Route path='Suggested-Itineraries-Blue-Ridge-Parkway' element={<BlueRidgeItinerary/>}/>
-                <Route path='Suggested-Itineraries-Ark-STLMO' element={<ArkansasStlmoItinerary/>}/>
-                <Route path='Suggested-Itineraries-Charleston' element={<CharlestonItinerary/>}/>
+                <Route path='/Suggested-Itineraries-NorthEast' element={<NorthEastItinerary/>}/>
+                <Route path='/Suggested-Itineraries-Michigan' element={<MichiganItinerary/>}/>
+                <Route path='/Suggested-Itineraries-Florida' element={<FloridaItinerary/>}/>
+                <Route path='/Suggested-Itineraries-Blue-Ridge-Parkway' element={<BlueRidgeItinerary/>}/>
+                <Route path='/Suggested-Itineraries-Ark-STLMO' element={<ArkansasStlmoItinerary/>}/>
+                <Route path='/Suggested-Itineraries-Charleston' element={<CharlestonItinerary/>}/>
 
             </Routes>
             <Footer/>

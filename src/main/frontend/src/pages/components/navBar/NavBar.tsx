@@ -1,51 +1,38 @@
-import React from "react";
-import NavThumbnail from './NavThumbnail.png'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './NavBar.scss'
-import { Navbar } from "react-bootstrap";
-import { useState } from "react";
-import  MenubarIcon from "./MenuBarIcon";
+import NavThumbnail from './NavThumbnail.png'
+import PlanYourTrip from './PlanYourTrip';
 
-
-
-function NavBar() {
-    const [isMenuOpen, setisMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setisMenuOpen(!isMenuOpen);
-    };
-
+function Navbar() {
     return (
-        <>
-            <div >
-                <Navbar id={'topNav'} expand="sm" className="bg-body-tertiary nav-fill w-100">
-                    <div className={'nav-1'}>
-                        <img id='thumbnail' src={NavThumbnail} alt='Dandelion blowing in wind' width='100em' />
-                    </div>
-                    <div className={'nav-2'}>
-                        <Navbar.Brand id={'title'} href={'./'}>Dandy <br /> Travel Co.</Navbar.Brand>
-                    </div>
-                    <div id="mobile-menu-container">
-                        <button onClick={toggleMenu}><MenubarIcon /></button>
-                        {isMenuOpen && (
-                        <ul>
-                            <li>Suggested <br /> Itineraries</li>
-                            <li>Pricing</li>
-                            <li>Blog</li>
-                            <li>PLAN YOUR <br /> TRIP</li>
-                        </ul>
-                        )}
-                    </div>
-                    <div id="abc" className={'container'}>
-                        <div className="link-container">
-                            <a className={'link-item1'} href="./Suggested-Itineraries">Suggested <br /> Itineraries</a>
-                            <a className={'link-item2'} href="./Pricing">Pricing</a>
-                            <a className={'link-item3'} href="#">Blog</a>
-                            <a id={'trip-btn'} href="./Plan-Your-Trip" className="btn">PLAN YOUR <br /> TRIP</a>
-                        </div>
-                    </div>
-                </Navbar>
+        <nav className="navbar sticky-nav">
+            <div className="menu-icon">
+                <img id='aa' src={NavThumbnail} />
+                <NavLink id='bb' to="/" className="active">
+                    Dandy Travel Co.
+                </NavLink>
             </div>
-        </>
+
+            <ul className="nav-links">
+
+                <li>
+                    <NavLink to="/Suggested-Itineraries" className="active">
+                        Suggested <br /> Itineraries
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/Pricing" className="active">
+                        Pricing
+                    </NavLink>
+                </li>
+                <li>
+
+                    <PlanYourTrip />
+
+                </li>
+            </ul>
+        </nav>
     );
 }
-export default NavBar;
+export default Navbar;

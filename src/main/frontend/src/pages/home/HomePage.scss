@@ -26,7 +26,7 @@
 }
 
 .image {
-  padding-top: 121px;
+  padding-top: 112px;
   height: 870px;
   //height: fit-content;
   overflow: hidden;
@@ -55,21 +55,21 @@ div>h1 {
 }
 
 .item-1 {
-  color: #082975;
+  color: #012650;
   padding-left: 7%;
   align-items: center;
   font-weight: 900;
 }
 
 .item-2 {
-  color: #082975;
+  color: #012650;
   width: 500px;
   font-size: 22px;
   font-weight: 500;
 }
 
 .sub-titles {
-  color: #082975;
+  color: #012650;
   width: 100%;
   text-align: center;
   font-size: 40px;
@@ -86,7 +86,7 @@ div>h1 {
 }
 
 .icons {
-  color: #082975;
+  color: #012650;
   font-weight: 500;
   height: 180px;
   width: auto;
@@ -116,7 +116,7 @@ div>h1 {
 .itin-name {
   background-color: rgb(194, 211, 213);
   padding-bottom: 1em;
-  color: #082975;
+  color: #012650;
   text-align: center;
   font-size: 35px;
   font-weight: 500;
@@ -126,10 +126,10 @@ div>h1 {
   font-size: 25px;
   align-content: center;
   text-decoration: none;
-  background-color: #082975;
+  background-color: #012650;
   padding: 8px 16px;
   color: white;
-  border: 2px solid #082975;
+  border: 2px solid #012650;
   border-radius: 20px;
   //transition: all 300ms ease-in-out;
 }
@@ -155,21 +155,42 @@ div>h1 {
     padding-top: 0;
     height: 250px;
   }
+  
+  .fa-icons  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .icons{
+    flex: 50%;
+  }
 
   .item-1 {
     font-size: 60px;
     font-weight: 900;
     overflow: hidden;
   }
-
-  .fa-icons, .sub-titles, .feature-itineraries {
+ .sub-titles, .feature-itineraries {
     display: none;
   }
 
   svg {
     height: 100px;
   }
-  li, ol {
-    color: black;
+
+}
+
+@media (max-width: 857px) {
+  .imageText-row {
+    padding-top: 12em;
+  }
+}
+
+@media (max-width: 858px) {
+  #main-img, .image {
+      display: none;
+  }
+  .imageText-row {
+    padding-top: 12em;
   }
 }
