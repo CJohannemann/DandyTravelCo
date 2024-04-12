@@ -9,16 +9,17 @@
     overflow: hidden;
 }
 
-#coverPhoto {
-    background-image: url(./img/Capture.PNG);
+#coverPhotoFlorida {
+    background-image: url(./img/FloridaCapture.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     height: 100%;
+   // filter: brightness(45%)
 }
 
-#north-east-route-img {
-    background-image: url(./img/NorthSmall.jpg);
+#florida-route-img {
+    background-image: url(./img/FloridaTrip.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -26,7 +27,7 @@
     overflow: hidden;
 }
 
-.north-east-route-img-conatiner {
+.florida-route-img-conatiner {
     width: 100%;
     margin: 0;
     height: 100em;

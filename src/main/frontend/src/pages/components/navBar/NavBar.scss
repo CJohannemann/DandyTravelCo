@@ -2,8 +2,6 @@
   font-family: 'Abril Fatface', serif;
 }
 
-
-//********* Computer Screen *******
 * {
   margin: 0;
   padding: 0;
@@ -105,28 +103,24 @@ a:hover {
   background-color: transparent;
 }
 
+#mobile-menu-container {
+  display: none;
+}
+
 
 @media only screen and (max-width: 768px) {
 
-  .mobileNav,
-  .dropdown-item {
-    z-index: 9999;
+  #mobile-menu-container {
+    display: inline-flex;
   }
 
-  .link-item1,
-  .link-item2,
-  .link-item3 {
-    padding-left: 4px;
-    padding-right: 4px;
+  #abc {
+    display: none;
   }
 
-  .dropdown-menu:show {
-    z-index: 9999;
+  #topNav {
+    height: 120px;
   }
 
-  .dropdown,
-  a {
-    z-index: 9999;
-    padding-bottom: 5em;
-  }
+
 }

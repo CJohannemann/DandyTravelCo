@@ -9,16 +9,17 @@
     overflow: hidden;
 }
 
-#coverPhoto {
-    background-image: url(./img/Capture.PNG);
+#coverPhotoCharleston {
+    background-image: url(./img/CharlestonCapture.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     height: 100%;
+   // filter: brightness(45%)
 }
 
-#north-east-route-img {
-    background-image: url(./img/NorthSmall.jpg);
+#charleston-route-img {
+    background-image: url(./img/CharlestonTrip.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -26,7 +27,7 @@
     overflow: hidden;
 }
 
-.north-east-route-img-conatiner {
+.charleston-route-img-conatiner {
     width: 100%;
     margin: 0;
     height: 100em;
@@ -76,13 +77,13 @@
 }
 
 @media (max-width: 700px) {
-    #north-east-route-img {
+    #charleston-route-img {
         height: 1000px;
     }
     .whitespace{
         padding-top: 250px;
     }
-    .north-east-route-img-conatiner {
+    .charleston-route-img-conatiner {
         height: 1000px;
     }
     .verbiage {
