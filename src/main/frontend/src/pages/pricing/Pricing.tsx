@@ -15,7 +15,7 @@ const Pricing = () => {
                 </div>
                 <div className={'inner-item-text'}>
                     <h2 className={'pricing-title'}>Just The Basics<br/></h2>
-                    <p className={'pricing-text'}>Choose one of our <a href={'#'}>suggested itineraries</a> and we will provide route information, recommended campsites, and suggested activities for your trip. This includes all digital documentation but does not include any booking or customization.
+                    <p className={'pricing-text'}>Choose one of our <a href={'/Suggested-Itineraries'}>suggested itineraries</a> and we will provide route information, recommended campsites, and suggested activities for your trip. This includes all digital documentation but does not include any booking or customization.
                     <br/>
                     Pricing: $50-$100 total</p>
                 </div>
@@ -27,7 +27,7 @@ const Pricing = () => {
                 </div>
                 <div className={'inner-item-text'}>
                     <h2 className={'pricing-title'}>Stress Free Package<br/></h2>
-                    <p className={'pricing-text'}>Choose one of our <a href={'#'}>suggested itineraries</a> and we will book the RV (if needed), book all of the campsites, and everything from the basic package. This includes customization based on start/end points.
+                    <p className={'pricing-text'}>Choose one of our <a href={'/Suggested-Itineraries'}>suggested itineraries</a> and we will book the RV (if needed), book all of the campsites, and everything from the basic package. This includes customization based on start/end points.
                         <br/> Planning Fee: $125/night
                     <br/> Trip Fee: Varies</p>
                 </div>

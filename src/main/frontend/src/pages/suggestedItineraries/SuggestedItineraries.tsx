@@ -3,14 +3,14 @@ import Florida from '../home/itineraries/Florida.png'
 import Michigan from '../home/itineraries/Michigan.png'
 import Northeast from '../home/itineraries/Northeast.png'
 import BlueRidgeHighway from '../home/itineraries/BlueRidgeHighway.png'
+import ArkansasStlmo from '../itineraries/arkansasStLouis/img/ArkansasStlmo.png';
 import CharlestonCapture from '../itineraries/charleston/img/CharlestonCapture.png'
-import ArkansasStlmoCapture from '../itineraries/arkansasStLouis/img/ArkansasStlmoCapture.jpg'
 
 const SuggestedItineraries = () => {
     return (
         <>
             <div className={'suggested-itineraries-title'}>
-                <p className={'suggested-itineraries-title'}>Featured Itineraries</p>
+                <p className={'suggested-itineraries-title'}>Suggested Itineraries</p>
             </div>
             <div className="flex-containter">
 
@@ -37,7 +37,7 @@ const SuggestedItineraries = () => {
                 </div>
 
                 <div className="carts">
-                    <img className='itin-img' style={{ height: "188px" }} src={ArkansasStlmoCapture} alt={'Highway in mountains'} />
+                    <img className='itin-img' style={{ height: "188px" }} src={ArkansasStlmo} alt={'Highway in mountains'} />
                     <p className={'itin-name'}>Arkansas - St. Louis<br /> <a href='Suggested-Itineraries-Ark-STLMO' className={'itin-btn'}>READ MORE</a>
                     </p>
                 </div>

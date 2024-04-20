@@ -12,12 +12,9 @@ const Footer = () => {
                 <a className={'footer-p'} href={'mailto:dandytravelco@gmail.com'}>Contact Us</a>
                 </div>
 
-                <div className={'footer-item'}>
+                {/* <div className={'footer-item'}>
                     <p className={'footer-p'}>Newsletter signup</p>
-                    
-
-
-                </div>
+                </div> */}
 
                 <div className={'footer-item'}>
                     {/*<p>Social Media</p>*/}
