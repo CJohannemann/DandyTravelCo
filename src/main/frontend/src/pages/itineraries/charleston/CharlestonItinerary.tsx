@@ -27,8 +27,8 @@ const CharlestonItinerary = () => {
                 <div>
                     <h5>Things we love on this route:</h5>
                     <p>
-                        •  <br />
-                        • 
+                        • This trip is rich with history, vibrant culture, and picturesque streets. <br />
+                        • Whether you’re a foodie, history enthusiast, or nature lover, there’s something for everyone.
                     </p>
                 </div>
             </div>

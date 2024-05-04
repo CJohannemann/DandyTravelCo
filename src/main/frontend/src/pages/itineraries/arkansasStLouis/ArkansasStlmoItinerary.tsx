@@ -27,8 +27,8 @@ const ArkansasStlmoItinerary = () => {
                 <div>
                     <h5>Things we love on this route:</h5>
                     <p>
-                        •  <br />
-                        • 
+                        • Trip includes natural wonders, historic sites, and rejuvenating experiences. <br />
+                        • Experience 3 big cities and 1 national park.
                     </p>
                 </div>
             </div>

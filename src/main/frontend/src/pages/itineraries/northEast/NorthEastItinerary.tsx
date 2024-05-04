@@ -27,7 +27,9 @@ const NorthEastItinerary = () => {
                 <div>
                     <h5>Things we love on this route:</h5>
                     <p>
-                        • Explore all the northeast hast to offer in one trip
+                        • Explore all the northeast hast to offer in one trip <br/>
+                        • Trip includes 2 amusement parks and a lot of great sightseeing.<br/>
+                        • So many historical cities, picturesque landscapes, and charming towns.
                     </p>
                 </div>
             </div>

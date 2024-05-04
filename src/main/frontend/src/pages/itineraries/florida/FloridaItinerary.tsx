@@ -27,8 +27,9 @@ const FloridaItinerary = () => {
                 <div>
                     <h5>Things we love on this route:</h5>
                     <p>
-                        • Experience 4 great lakes in one trip <br />
-                        • Perfect combination of thrill and nature
+                        • Explore vibrant cities, sandy beaches and natural beauty. <br />
+                        • Allows for the right amount of relaxation on beaches between busy locations.<br />
+                        • Check 2 national parks off your bucket list.
                     </p>
                 </div>
             </div>

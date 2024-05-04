@@ -49,7 +49,7 @@ const HomePage = () => {
             </div>
 
             <div className={'sub-titles'}>
-                <p className={'sub-titles'}>Featured Itineraries</p>
+                <p className={'sub-titles fi-subtitle'}>Featured Itineraries</p>
             </div>
 
             {/* <UncontrolledExample/> */}

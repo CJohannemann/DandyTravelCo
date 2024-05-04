@@ -6,6 +6,7 @@ import Footer from './main/frontend/src/pages/components/footer/Footer';
 import Navbar from "./main/frontend/src/pages/components/navBar";
 import Pricing from "./main/frontend/src/pages/pricing/Pricing";
 import Planning from "./main/frontend/src/pages/planning/Planning";
+import Blog from './main/frontend/src/pages/blog/Blog';
 import SuggestedItineraries from './main/frontend/src/pages/suggestedItineraries/SuggestedItineraries';
 import NorthEastItinerary from './main/frontend/src/pages/itineraries/northEast/NorthEastItinerary';
 import MichiganItinerary from './main/frontend/src/pages/itineraries/michigan/MichiganItinerary';
@@ -21,6 +22,7 @@ function App() {
             <Routes>
                 <Route path='' element={<HomePage/>}/>
                 <Route path='/Pricing' element={<Pricing/>}/>
+                <Route path='/Blog' element={<Blog/>}/>
                 <Route path='/Plan-Your-Trip' element={<Planning/>}/>
                 <Route path='/Suggested-Itineraries' element={<SuggestedItineraries/>}/>
                 {/*List Of Itineraries:*/}

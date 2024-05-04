@@ -28,7 +28,7 @@ const MichiganItinerary = () => {
                     <h5>Things we love on this route:</h5>
                     <p>
                         • Experience 4 great lakes in one trip <br />
-                        • Perfect combination of thrill and nature
+                        • Whether you’re exploring the Great Lakes, sand dunes,<br /> or quaint villages, there’s something for everyone.
                     </p>
                 </div>
             </div>

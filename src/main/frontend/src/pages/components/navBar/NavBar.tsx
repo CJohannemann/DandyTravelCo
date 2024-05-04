@@ -26,7 +26,12 @@ function Navbar() {
                         Pricing
                     </NavLink>
                 </li>
-                <li>
+                <li id='blog'>
+                    <NavLink to="/Blog" className="active">
+                        Blog
+                    </NavLink>
+                </li>
+                <li id='tripPlanner'>
 
                     <PlanYourTrip />
 

@@ -27,8 +27,8 @@ const BlueRidgeItinerary = () => {
                 <div>
                     <h5>Things we love on this route:</h5>
                     <p>
-                        •  <br />
-                        • 
+                        • Trip includes so many scenic overlooks, mountains, waterfalls, and wildlife. <br />
+                        • Great hiking trails and historic structures.
                     </p>
                 </div>
             </div>
