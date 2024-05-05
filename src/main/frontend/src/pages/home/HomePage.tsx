@@ -12,10 +12,12 @@ import HikingIcon from "./svg/HikingIcon";
 import FolderIcon from "./svg/FolderIcon";
 import CampgroundIcon from "./svg/CampgroundIcon";
 import UncontrolledExample from './UncontrolledExample';
+import GoToTop from '../components/GoToTop';
 
 const HomePage = () => {
     return (
         <>
+        <GoToTop />
             <div className={'outer-container'}>
             </div>
             <div className={'image-container'}>

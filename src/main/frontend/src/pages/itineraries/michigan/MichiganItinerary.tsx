@@ -1,9 +1,11 @@
+import GoToTop from '../../components/GoToTop';
 import './MichiganItinerary.scss'
 
 
 const MichiganItinerary = () => {
     return (
         <>
+        <GoToTop />
          <div className='whitespace' style={{ paddingTop: "150px" }}></div>
             <div className="box">
                 <p id="coverPhotoMich"></p>

@@ -1,9 +1,11 @@
 import React from "react";
 import './Pricing.scss';
+import GoToTop from "../components/GoToTop";
 
 const Pricing = () => {
     return (
         <>
+        <GoToTop />
             <div className={'title-container'}>
                 <div className={'title'}>
                     <p className={'title-p'}>Packages & Pricing</p>

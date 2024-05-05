@@ -5,10 +5,12 @@ import Northeast from '../home/itineraries/Northeast.png'
 import BlueRidgeHighway from '../home/itineraries/BlueRidgeHighway.png'
 import ArkansasStlmo from '../itineraries/arkansasStLouis/img/ArkansasStlmo.png';
 import CharlestonCapture1 from '../itineraries/charleston/img/CharlestonCapture1.png'
+import GoToTop from '../components/GoToTop';
 
 const SuggestedItineraries = () => {
     return (
         <>
+        <GoToTop />
             <div className={'suggested-itineraries-title'}>
                 <p className={'suggested-itineraries-title'}>Suggested Itineraries</p>
             </div>

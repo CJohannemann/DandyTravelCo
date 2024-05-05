@@ -1,9 +1,11 @@
+import GoToTop from '../../components/GoToTop';
 import './BlueRidgeItinerary.scss'
 
 
 const BlueRidgeItinerary = () => {
     return (
         <>
+        <GoToTop />
          <div className='whitespace' style={{ paddingTop: "150px" }}></div>
             <div className="box">
                 <p id="coverPhotoBlueRidge"></p>

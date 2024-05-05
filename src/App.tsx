@@ -32,7 +32,6 @@ function App() {
                 <Route path='/Suggested-Itineraries-Blue-Ridge-Parkway' element={<BlueRidgeItinerary/>}/>
                 <Route path='/Suggested-Itineraries-Ark-STLMO' element={<ArkansasStlmoItinerary/>}/>
                 <Route path='/Suggested-Itineraries-Charleston' element={<CharlestonItinerary/>}/>
-
             </Routes>
             <Footer/>
         </BrowserRouter>

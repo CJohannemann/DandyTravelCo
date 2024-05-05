@@ -1,10 +1,12 @@
 import React from 'react';
 import HubspotContactForm from './HubspotContactForm'; 
 import './Planning.scss'
+import GoToTop from '../components/GoToTop';
 
 const Planning = () => {
   return (
     <main>
+      <GoToTop />
 			<div className="top-padding"></div>
 
       <div className="container">
