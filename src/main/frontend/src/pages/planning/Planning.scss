@@ -5,3 +5,9 @@ main {
     padding-top: 175px;
 }
 }
+
+@media (max-width: 490px) {
+.top-padding {
+    margin-bottom: 2em;
+}
+}
