@@ -27,7 +27,7 @@ function Navbar() {
                     </NavLink>
                 </li>
                 <li id='blog'>
-                    <NavLink to="/Blog" className="active">
+                    <NavLink to='/Blog' target="_blank" className="active">
                         Blog
                     </NavLink>
                 </li>
