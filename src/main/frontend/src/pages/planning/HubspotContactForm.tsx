@@ -1,5 +1,11 @@
 import React, { useEffect } from 'react';
 
+declare global {
+    interface Window {
+        hbspt: any;
+    }
+}
+
 const HubspotContactForm = ({ region, portalId, formId }) => {
     useEffect(() => {
         const script = document.createElement('script');
