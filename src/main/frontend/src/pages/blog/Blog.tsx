@@ -4,7 +4,7 @@ import GoToTop from '../components/GoToTop';
 const Blog = () => {
     return (
         <>
-        {window.location.assign('https://blog.dandytravelco.com/blog')}
+        {window.location.assign('https://blog.dandytravelco.com')}
         </>
     );
 };
