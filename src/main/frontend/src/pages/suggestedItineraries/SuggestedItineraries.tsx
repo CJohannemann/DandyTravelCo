@@ -49,6 +49,16 @@ const SuggestedItineraries = () => {
                     <p className={'itin-name'}>Charleston, SC<br /> <a href='suggested-itineraries-charleston' className={'itin-btn'}>READ MORE</a>
                     </p>
                 </div>
+                <div className="carts">
+                    <img className='itin-img' style={{ height: "188px" }} src={CharlestonCapture1} alt={'Houses on a street'} />
+                    <p className={'itin-name'} style={{fontSize:"26px"}}>Yellowstone/Grand Teton<br /> <a href='suggested-itineraries-charleston' className={'itin-btn'}>READ MORE</a>
+                    </p>
+                </div>
+                <div className="carts">
+                    <img className='itin-img' style={{ height: "188px" }} src={CharlestonCapture1} alt={'Houses on a street'} />
+                    <p className={'itin-name'}>Grand Canyon/<br />Zion NP<br /> <a href='suggested-itineraries-charleston' className={'itin-btn'}>READ MORE</a>
+                    </p>
+                </div>
             </div>
         </>
     );

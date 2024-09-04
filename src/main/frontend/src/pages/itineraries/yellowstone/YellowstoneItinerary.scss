@@ -1,0 +1,98 @@
+.whitespace {
+    padding-top: 150px;
+}
+
+.box {
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#coverPhotoMich {
+    background-image: url(./img/MichiganCapture.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    // filter: brightness(45%)
+}
+
+#mich-route-img {
+    background-image: url(./img/MichiganTrip.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mich-route-img-conatiner {
+    width: 100%;
+    margin: 0;
+    height: 100em;
+    overflow: hidden;
+
+}
+
+.verbiage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.content-container {
+    width: 470px;
+    overflow: hidden;
+}
+
+.verbiage div {
+    margin: 2em;
+}
+
+.bullets {
+    list-style-type: disc;
+}
+.bullets::marker {
+    color: black;
+    font-size: 1.5em;
+}
+
+.book-btn-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#book-btn {
+    background-color: #082975;
+    text-decoration: none;
+    padding: 4px 10px;
+    border: #082975 2px solid;
+
+    font-size: 20px;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .whitespace{
+        padding-top: 250px;
+    }
+    .verbiage {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .verbiage div {
+        margin: 5px;
+    }
+    .box {
+        height: 336px;
+         width: 100%;
+     }
+     .mich-route-img-conatiner {
+     height: 58em;
+     }
+}
